@@ -1,4 +1,4 @@
-project('easy-portals', 'c', version: '0.1')
+project('easy-portals-workshop', 'c', version: '1.0')
 
 cc = meson.get_compiler('c')
 libportals_dep = cc.find_library('libportals')
@@ -17,7 +17,6 @@ libezportals = declare_dependency(
 ezportals_hdrs = include_directories('.', 'utils')
 
 subdir('utils')
-subdir('examples')
 subdir('challenge1')
 subdir('challenge2')
 subdir('challenge3')

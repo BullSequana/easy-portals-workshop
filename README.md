@@ -26,7 +26,9 @@ For execution of programs using Easy Portals library, the system have *BullSequa
 The EZP_GROUP environment variable controls the physical interface and Portals PID range that is used by the program. For instance if EZP_GROUP is set to 5, physical interface 1 and Portals PIDs 3100 to 3115 are used by the program.
 
 ## Build
-To build the project, you must initialize the build environment with `meson setup build`. Then launch the build with `ninja -C build`.
+To build the project, you must initialize the build environment with `meson setup build`.
+
+Then launch the build with `ninja -C build`.
 
 # Challenges
 This project proposes an initiation to the *Portals* communication semantic with several coding challenges that are based on the Easy Portals library.

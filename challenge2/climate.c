@@ -22,15 +22,11 @@
 
 void *compute_task(void *p)
 {
-	unsigned long id = (unsigned long)p;
-
 	return NULL;
 }
 
 void *visualization_task(void *p)
 {
-	unsigned long id = (unsigned long)p;
-
 	return NULL;
 }
 
