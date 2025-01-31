@@ -29,9 +29,9 @@ void init_cells(void);
 
 /* get_next_cell()
  * return a cell identifier
- * Each cell identifier is returned once
- * meaning after NUM_CELLS call of this routine
- * all cell identifiers will be returned */
+ * Each cell identifier is returned once.
+ * After NUM_CELLS calls, it returns -1 to
+ * indicate all cell identifiers have been returned */
 int get_next_cell(void);
 
 /* process_cell()
