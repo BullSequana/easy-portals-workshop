@@ -18,12 +18,12 @@ For the visualization task, it consists in:
 * prepare for the reception of cell processing result buffers
 * start rendering of the whole mesh result - `start_rendering()`
 * upon notification of reception events, regularly render the mesh result - `render_cells()`
-* when all expected completions have ovvured, end rendering - `end_rendering()`
+* when all expected completions have occured, end rendering - `end_rendering()`
 
 ### Notes
 Program must be launched from the root directory of the repository to correctly access input data
 
 Entire rendering of the image result requires a terminal with 400 characters width and 200 characters height
 
-Hit the 'q' key to quit the `end_rendering()` function
+Hit the 'q' key to quit the `end_rendering()` function, and type `tput reset` to reset your terminal if needed.
 
