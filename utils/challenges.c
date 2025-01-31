@@ -176,6 +176,12 @@ void start_rendering(void *buf)
 	current_image.rows = initial_image.rows;
 	current_image.image = buf;
 
+	for (int i = 0; i < current_image.cols * current_image.rows; i++) {
+		sprintf(current_image.image[i].r, "%u", 0);
+		sprintf(current_image.image[i].g, "%u", 0);
+		sprintf(current_image.image[i].b, "%u", 0);
+	}
+
 	enter_raw_mode();
 }
 
